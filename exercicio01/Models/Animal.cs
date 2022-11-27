@@ -10,7 +10,7 @@ namespace exercicio01.Models
         public string? Raca { get; set; }
         public string? Tamanho { get; set; }
 
-        public void EmitirSom()
+        public virtual void EmitirSom()
         {
             Console.WriteLine("Som de animal");
         }
