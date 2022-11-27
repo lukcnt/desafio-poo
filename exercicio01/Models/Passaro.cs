@@ -7,6 +7,9 @@ namespace exercicio01.Models
 {
     public class Passaro : Animal
     {
-        
+        public override void EmitirSom()
+        {
+            Console.WriteLine("Canto");
+        }
     }
 }
